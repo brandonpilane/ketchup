@@ -1,38 +1,75 @@
-# sv
+# 🧠 Ketchup
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+> A simple and personal project & assignment tracker, built with SvelteKit and TailwindCSS.
 
-## Creating a project
+Ketchup is a minimalist tool designed to help students and developers quickly **capture, track, and manage** their projects without the overhead of full-blown task managers.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```bash
-# create a new project in the current directory
-npx sv create
+## 🚀 Tech Stack
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **Frontend:** SvelteKit + TypeScript
+- **Styling:** TailwindCSS + Tailwind Plugins (Forms)
+- **State Management:** Svelte Stores
+- **Persistence:** localStorage (no backend — for now)
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🛠️ Features
 
-```bash
-npm run dev
+- Create and manage multiple projects
+- Add tasks to each project
+- Automatically saves your data locally
+- Responsive layout for mobile & desktop
+- Fast, keyboard-friendly interface
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+---
 
-## Building
+## 📦 Getting Started
 
-To create a production version of your app:
+1. Clone the repo
+   ```bash
+   git clone https://github.com/brandonpilane/ketchup.git
+   cd ketchup
+   ```
+2. Install dependencies
 
-```bash
-npm run build
-```
+   ```bash
+   pnpm install
+   ```
 
-You can preview the production build with `npm run preview`.
+3. Start the dev server
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+   ```bash
+   pnpm dev
+   ```
+
+4. Open http://localhost:5173 in your browser.
+
+---
+
+## 🌱 Roadmap
+
+- Add/Edit/Delete projects
+
+- Per-project task list
+
+- Due date reminders
+
+- Theme toggle (dark/light)
+
+- Export/import data
+
+- (Optional) Backend sync in future
+
+---
+
+## 🤙 Contributions
+
+This project is early and personal, but PRs or ideas are always welcome.
+
+---
+
+## 🧃 Why “Ketchup”?
+
+Because sometimes we just need to catch up on all the stuff we’ve been putting off.
